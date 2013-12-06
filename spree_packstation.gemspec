@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = 'You want to send parcels to a DHL Packstation? There you go ...'
   s.required_ruby_version = '>= 1.8.7'
 
-  s.author    = 'Christoph Bünte'
+  s.author    = 'Christoph Buente'
   s.email     = 'info@christophbuente.de'
   s.homepage  = 'https://github.com/meinekleinefarm/spree_packstation'
 
