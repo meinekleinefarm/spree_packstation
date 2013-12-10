@@ -11,6 +11,11 @@ $(function() {
         $('#saddress1, #saddress2').hide();
         $('#sstation_number, #slocker_number').show();
         $('#sstation_number input, #slocker_number input').prop('disabled', false);
+        $('#order_ship_address_id_0').click();
+
+        if ($('#order_use_billing').is(':checked')) {
+          $('#order_use_billing').click();
+        }
         // store value before override
         tmp_saddress_1 = $('#saddress1 input').val();
         $('#saddress1 input').val('Packstation');
