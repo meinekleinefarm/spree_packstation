@@ -9,3 +9,13 @@ de:
       spree/address:
         station_number: Stationsnummer
         locker_number: Fachnummer
+    errors:
+      models:
+        spree/order:
+          ship_address:
+            station_number: Stationsnummer
+            locker_number: Fachnummer
+    models:
+      ship_address: Lieferadresse
+      spree/address: Adresse
+
